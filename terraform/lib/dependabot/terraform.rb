@@ -10,6 +10,7 @@ require "dependabot/terraform/file_updater"
 require "dependabot/terraform/metadata_finder"
 require "dependabot/terraform/requirement"
 require "dependabot/terraform/version"
+require "dependabot/terraform/package_manager"
 
 require "dependabot/pull_request_creator/labeler"
 Dependabot::PullRequestCreator::Labeler

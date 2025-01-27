@@ -10,6 +10,8 @@ require "dependabot/cargo/file_updater"
 require "dependabot/cargo/metadata_finder"
 require "dependabot/cargo/requirement"
 require "dependabot/cargo/version"
+require "dependabot/cargo/language"
+require "dependabot/cargo/package_manager"
 
 require "dependabot/pull_request_creator/labeler"
 Dependabot::PullRequestCreator::Labeler
