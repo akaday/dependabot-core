@@ -10,6 +10,7 @@ require "dependabot/git_submodules/file_updater"
 require "dependabot/git_submodules/metadata_finder"
 require "dependabot/git_submodules/requirement"
 require "dependabot/git_submodules/version"
+require "dependabot/git_submodules/package_manager"
 
 require "dependabot/pull_request_creator/labeler"
 Dependabot::PullRequestCreator::Labeler

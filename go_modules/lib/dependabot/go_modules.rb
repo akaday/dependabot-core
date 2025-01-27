@@ -10,6 +10,7 @@ require "dependabot/go_modules/file_updater"
 require "dependabot/go_modules/metadata_finder"
 require "dependabot/go_modules/requirement"
 require "dependabot/go_modules/version"
+require "dependabot/go_modules/package_manager"
 
 require "dependabot/pull_request_creator/labeler"
 Dependabot::PullRequestCreator::Labeler

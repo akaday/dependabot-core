@@ -10,6 +10,7 @@ require "dependabot/dotnet_sdk/file_updater"
 require "dependabot/dotnet_sdk/metadata_finder"
 require "dependabot/dotnet_sdk/requirement"
 require "dependabot/dotnet_sdk/version"
+require "dependabot/dotnet_sdk/package_manager"
 
 require "dependabot/pull_request_creator/labeler"
 Dependabot::PullRequestCreator::Labeler
